@@ -3,15 +3,16 @@ package FactoryMethod;
 public class Main {
 	
 	public static void main(String[] args) {
-		ItemCreator creator;
+		ItemUseFactory itemUseFactory = new ItemUseFactoryImpl();
 		Item item;
 		
-		creator = new HpCreator();
-		item = creator.create();
+		item = itemUseFactory.useItem("EatItem");
 		item.use();
 		
-		creator = new MpCreator();
-		item = creator.create();
+		item = itemUseFactory.useItem("EquipItem");
+		item.use();
+		
+		item = itemUseFactory.useItem("TradeItem");
 		item.use();
 	}
 }

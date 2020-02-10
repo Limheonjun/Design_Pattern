@@ -10,7 +10,6 @@ public class SystemSpeaker {
 	
 	public static SystemSpeaker getInstance() {
 		if(instance==null) {
-			// 
 			instance = new SystemSpeaker();
 		}
 		return instance;

@@ -6,16 +6,20 @@ public class Main {
 		SystemSpeaker speaker1 = SystemSpeaker.getInstance();
 		SystemSpeaker speaker2 = SystemSpeaker.getInstance();
 		
-		System.out.println(speaker1.getVolume());
-		System.out.println(speaker2.getVolume());
+		// 동일한 인스턴스
+		System.out.println(speaker1); 
+		System.out.println(speaker2);
+		
+		System.out.println(speaker1.getVolume()); // 5
+		System.out.println(speaker2.getVolume()); // 5
 		
 		speaker1.setVolume(11);
-		System.out.println(speaker1.getVolume());
-		System.out.println(speaker2.getVolume());
+		System.out.println(speaker1.getVolume()); // 11
+		System.out.println(speaker2.getVolume()); // 11
 		
 		speaker2.setVolume(22);
-		System.out.println(speaker1.getVolume());
-		System.out.println(speaker2.getVolume());
+		System.out.println(speaker1.getVolume()); // 22
+		System.out.println(speaker2.getVolume()); // 22
 	
 	}
 

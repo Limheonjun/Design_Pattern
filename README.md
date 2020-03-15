@@ -12,3 +12,4 @@
  7. [Builder Pattern](https://github.com/Limheonjun/Design_Pattern/tree/master/src/BuilderPattern)
  8. [AbstractFactory Pattern](https://github.com/Limheonjun/Design_Pattern/tree/master/src/AbstractFactoryPattern)
  9. [Bridge Pattern](https://github.com/Limheonjun/Design_Pattern/tree/master/src/BridgePattern)
+ 10. [Decorator Pattern](https://github.com/Limheonjun/Design_Pattern/tree/master/src/DecoratorPattern)
